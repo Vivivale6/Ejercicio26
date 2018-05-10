@@ -41,3 +41,20 @@ x4=len(v4)
 t4 = np.random.uniform(0,np.pi/2.0,x4)
 distancia4= funcion(v4,t4,g)
 
+
+
+plt.figure()        
+g_d1= plt.hist(d1, bins = 50, normed=1)
+plt.savefig("d1.png")
+
+plt.figure()        
+g_d2= plt.hist(d2, bins = 50,normed=1)
+plt.savefig("d2.png")
+
+plt.figure()        
+g_d3= plt.hist(d3, bins = 50,normed=1)
+plt.savefig("d3.png")
+
+plt.figure()        
+g_d4= plt.hist(d4, bins = 50,normed=1)
+plt.savefig("d4.png")
