@@ -1,4 +1,3 @@
-
 d.png:
 	python Ejercicio26.py
 d1.pdf:
